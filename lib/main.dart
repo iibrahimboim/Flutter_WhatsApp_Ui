@@ -167,6 +167,15 @@ class _HomePageState extends State<HomePage> {
                     trailing: Text("50", style: TextStyle(color: Colors.green)),
                   ),
                 ),
+               Card(
+                  elevation: 20,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Boim"),
+                    subtitle: Text("Kamuu lagi apa bus"),
+                    trailing: Text("50", style: TextStyle(color: Colors.green)),
+                  ),
+                ),
                 Card(
                   elevation: 20,
                   child: ListTile(
