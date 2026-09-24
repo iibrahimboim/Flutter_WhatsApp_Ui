@@ -39,14 +39,14 @@ class _HomePageState extends State<HomePage> {
         ),
         body: TabBarView(
           children: [
-            Column(
+            ListView(
               children: [
                 Card(
                   elevation: 20,
                   child: ListTile(
                     leading: Icon(Icons.person),
                     title: Text("Boim"),
-                    subtitle: Text("Kamuu lagi apa baim"),
+                    subtitle: Text("Kamuu lagi apa bus"),
                     trailing: Text("50", style: TextStyle(color: Colors.green)),
                   ),
                 ),
@@ -55,13 +55,76 @@ class _HomePageState extends State<HomePage> {
                   child: ListTile(
                     leading: Icon(Icons.person),
                     title: Text("Boim"),
-                    subtitle: Text("Kamuu lagi apa baim"),
+                    subtitle: Text("Kamuu lagi apa bus"),
                     trailing: Text("50", style: TextStyle(color: Colors.green)),
                   ),
-                ),    
+                ),
+                Card(
+                  elevation: 20,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Boim"),
+                    subtitle: Text("Kamuu lagi apa bus"),
+                    trailing: Text("50", style: TextStyle(color: Colors.green)),
+                  ),
+                ),
+                Card(
+                  elevation: 20,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Boim"),
+                    subtitle: Text("Kamuu lagi apa bus"),
+                    trailing: Text("50", style: TextStyle(color: Colors.green)),
+                  ),
+                ),
+                Card(
+                  elevation: 20,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Boim"),
+                    subtitle: Text("Kamuu lagi apa bus"),
+                    trailing: Text("50", style: TextStyle(color: Colors.green)),
+                  ),
+                ),
+                Card(
+                  elevation: 20,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Boim"),
+                    subtitle: Text("Kamuu lagi apa bus"),
+                    trailing: Text("50", style: TextStyle(color: Colors.green)),
+                  ),
+                ),
+                Card(
+                  elevation: 20,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Boim"),
+                    subtitle: Text("Kamuu lagi apa bus"),
+                    trailing: Text("50", style: TextStyle(color: Colors.green)),
+                  ),
+                ),
+                Card(
+                  elevation: 20,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Boim"),
+                    subtitle: Text("Kamuu lagi apa bus"),
+                    trailing: Text("50", style: TextStyle(color: Colors.green)),
+                  ),
+                ),
+                Card(
+                  elevation: 20,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Boim"),
+                    subtitle: Text("Kamuu lagi apa bus"),
+                    trailing: Text("50", style: TextStyle(color: Colors.green)),
+                  ),
+                ),
               ],
             ),
-            Column(
+            ListView(
               children: [
                 Card(
                   elevation: 20,
@@ -80,9 +143,41 @@ class _HomePageState extends State<HomePage> {
                     subtitle: Text("5 Menit yang lalu"),
                   ),
                 ),    
+                Card(
+                  elevation: 20,
+                  child: ListTile(
+                    leading: Icon(Icons.account_circle),
+                    title: Text("marvel", style: TextStyle(color: Colors.green)),
+                    subtitle: Text("5 Menit yang lalu"),
+                  ),
+                ),
+                Card(
+                  elevation: 20,
+                  child: ListTile(
+                    leading: Icon(Icons.account_circle),
+                    title: Text("marvel", style: TextStyle(color: Colors.green)),
+                    subtitle: Text("5 Menit yang lalu"),
+                  ),
+                ),
+                Card(
+                  elevation: 20,
+                  child: ListTile(
+                    leading: Icon(Icons.account_circle),
+                    title: Text("marvel", style: TextStyle(color: Colors.green)),
+                    subtitle: Text("5 Menit yang lalu"),
+                  ),
+                ),    
+                Card(
+                  elevation: 20,
+                  child: ListTile(
+                    leading: Icon(Icons.account_circle),
+                    title: Text("marvel", style: TextStyle(color: Colors.green)),
+                    subtitle: Text("5 Menit yang lalu"),
+                  ),
+                ),
               ],
             ),
-            Column(
+            ListView(
               children: [
                 Card(
                   elevation: 20,
