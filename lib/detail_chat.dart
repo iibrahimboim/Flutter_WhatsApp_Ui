@@ -17,7 +17,7 @@ class _DetailChatState extends State<DetailChat> {
           onPressed: () {
             Navigator.pop(context);
           },
-          icon: Icon(Icons.arrow_back, color: Colors.white),
+          icon: Icon(Icons.arrow_back, color: Colors.black54),
         ),
         title: Row(
           children: [
@@ -33,19 +33,19 @@ class _DetailChatState extends State<DetailChat> {
             onPressed: () {
               debugPrint("Video Call Started");
             },
-            icon: Icon(Icons.videocam, color: Colors.white),
+            icon: Icon(Icons.videocam, color: Colors.black54),
           ),
           IconButton(
             onPressed: () {
               debugPrint("Call Started");
             },
-            icon: Icon(Icons.call, color: Colors.white),
+            icon: Icon(Icons.call, color: Colors.black54),
           ),
           IconButton(
             onPressed: () {
               debugPrint("More Vert Onclick");
             },
-            icon: Icon(Icons.more_vert, color: Colors.white),
+            icon: Icon(Icons.more_vert, color: Colors.black54),
           ),
         ],
       ),
